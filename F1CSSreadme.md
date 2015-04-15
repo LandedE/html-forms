@@ -14,6 +14,7 @@ Add CSS styling to your form 1 HTML.
 - Create a new file by clicking on File->New File
 - Save your new file by clicking on File->Save
  	- Name the file 'style.css'
+- Remember to save often as you work
 
 ### Step 3 - Linking your stylesheet to your HTML
 
