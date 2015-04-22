@@ -1,14 +1,6 @@
-html {
-	border-width: 1px;
-	font-family: Courier;
-	text-align: center;
-	color: #666666;
-	
-}
 
-header {
-	border-bottom: 1px;
-}
+
+
 
 #top {
 	width: 400px;
@@ -55,4 +47,127 @@ textarea{
 #message{
 	display: inline;
 
+}
+
+#formheader {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 1px solid #7e9d4c;
+	background-color: #9ec45f;
+	color: white;
+	height:120px;
+	width:590px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+div * {
+	margin-bottom:10px;
+	position: relative;
+	left: 35px;
+}
+
+#form2 {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 1px solid #e1e1e1;
+	background-color: #f3f3f3;
+	height: 360px;
+	width: 590px;
+	font-family: Tahoma;
+	font-size: .8em;
+
+	
+	
+}
+
+#form2 *{
+	position: relative;
+	left: 35px;
+}
+
+
+
+#form2send{
+	background-color: #9ec45f;
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 5px;
+	color: white;
+	font-family:;
+}
+
+label{
+	display: block;
+	color: #595959;
+	position: relative;
+
+}
+
+input{
+	width: 440px;
+	display: block;
+	height: 20px;
+	border-color: #e1e1e1;
+	margin-bottom: 20px;
+}
+
+textarea{
+	display: block;
+	height:80px;
+	width: 440px;
+}
+
+select{
+	display: block;
+	width: 440px;
+	height: 30px;
+}
+
+#fulldoc3{
+	width: 1000px;
+}
+
+#bodform3, #form3{
+	background-color: #b13939;
+	color: white;
+	font-family: Tahoma;
+	font-size: .8em;
+}
+
+#h2form3 {
+	text-align: center;
+}
+
+li {
+	text-align: left;
+}
+
+p { 
+	position: relative;
+	left: 20px;
+}
+
+#form3 input {
+	display: inline-block;
+	height: 40px;
+	box-shadow: 0px 5px 2px -2px #8e4123;
+
+}
+
+#ssn{
+	width: 250px;
+}
+
+#form3submit{
+	float: right;
+	background-color: #881817;
+	border: 1px solid #881817;
+	color: white;
+	font-family: Courier;
+	width: 150;
+	display: block;
 }

@@ -1,26 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    
     <head>
+
+        <link rel="stylesheet" href="style.css">
         <meta charset="utf-8">
         <title>Contact Form 2</title>
     </head>
-
-    <body>
-    	<h1>Contact Info</h1>
-    	<p>Please fill in your contact information.</p>
-    	<form>
-    		Your Name: <input type="text" name="yourname"><br>
-    		Your Email:<input type="text" name="email"><br>
-    		Message:<textarea rows="5" cols="40"></textarea><br>
-    		Subject:<select name="subject">
+	 
+    	<body>
+    	   	
+    			<div id="formheader">
+    		
+    		<header>
+    		<h1>Contact Info</h1>
+    		<p>Please fill in your contact information.</p>
+    		</header>
+    			
+    			</div>
+    		
+    		<form id="form2">
+    			<label>
+    			Your Name: <input type="text" name="yourname" placeholder="Your Full Name">
+    			</label>
+    			<label>
+    			Your Email: <input type="text" name="email" placeholder="Valid Email Address">
+    			</label>
+    			<label>
+    			Message: <br><textarea id="message" name="message" placeholder="Your Message To Us"></textarea>
+    			</label>
+    			<label>
+    			Subject:<select name="subject">
     				<option value="jobinquiry">Job Inquiry</option> 
     				<option value="applicationstatus">Application Status</option>
     				<option value="other">Other</option>
-    				</select><br>
-    		<input type="submit" value="Submit">
-        	</form>
-    </body>
-
+    				</select>
+    			</label>
+    			
+    			<button id="form2send">Send</button>
+    			</form>
+    		
+    	</body>
+    
 </html>
 
